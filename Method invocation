@@ -1,0 +1,9 @@
+public class Test extends QuickTest {
+    public QuickTest printDet () {
+        return super.printDet("Ahmad" , 1000);
+    }
+    public static void main (String [] args){
+        Test name = new Test();
+        name.printDet();
+    }
+}
